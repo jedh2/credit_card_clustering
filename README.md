@@ -34,6 +34,24 @@ https://www.kaggle.com/datasets/ealtman2019/credit-card-transactions/data
 - [x] Converted Year, Month, Day into dataframe Date format
 - [x] The credit card user total amount spent and the total number of transactions in the dataset were examined.
 
+<div align="center">
+  <a href="https://github.com/jedh2/credit_card_clustering/blob/main/images/amount.png">
+    <img src="images/amount.png" alt="Logo" width="393" height="318">
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/jedh2/credit_card_clustering/blob/main/images/origin.png">
+    <img src="images/origin.png" alt="Logo" width="437" height="350">
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/jedh2/credit_card_clustering/blob/main/images/year.png">
+    <img src="images/year.png" alt="Logo" width="427" height="350">
+  </a>
+</div>
+
 ### Data Modeling :bar_chart:
 * K-Means and DBSCAN clustering methods were used to cluster the customers.
 * Hyperparameters in both models were tuned
@@ -43,7 +61,7 @@ https://www.kaggle.com/datasets/ealtman2019/credit-card-transactions/data
 * K-Means clustered the customers more realistically. The outliers were clustered into one group which lowered the silhouette score.
 
 <div align="center">
-  <a href="https://github.com/jedh2/credit_card_clustering">
+  <a href="https://github.com/jedh2/credit_card_clustering/blob/main/images/results.jpg">
     <img src="images/results.jpg" alt="Logo" width="384" height="320">
   </a>
 </div>
